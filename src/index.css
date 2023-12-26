@@ -9,3 +9,19 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
 }
+
+
+.activeSlide
+{
+    font-weight: theme(fontWeight.semibold);
+    border-radius: theme(borderRadius.sm);
+    background-color: theme(backgroundColor.red.50);
+    color: theme(colors.red.600);
+}
+
+.activePage
+{
+    color: theme(colors.red.600);
+    font-weight: theme(fontWeight.semibold);
+
+}

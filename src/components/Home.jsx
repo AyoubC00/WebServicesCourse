@@ -1,4 +1,4 @@
-import ApacheLogo from "../assets/apacheLogo.png"
+import ApacheLogo from "../assets/apachelogo.png"
 const Home = () =>
 {
     return (

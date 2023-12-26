@@ -1,7 +1,7 @@
 const Introduction = () =>
 {
     return (
-        <div className="w-full px-12 py-8">
+        <>
             <h2 className="text-4xl font-semibold mb-8 text-red-600">Introduction</h2>
             <p className="mb-4">
             There are several Packages and software which might help You turning Your server into a webserver to server http and https requests like:
@@ -31,7 +31,7 @@ const Introduction = () =>
                     If Redhat changed the default httpd to nginix That means That if You run the command yum install httpd, You'll install The Nginix, however Currently the httpd still the apache service.
                 </li>
             </ul>
-        </div>
+        </>
     )
 }
 
