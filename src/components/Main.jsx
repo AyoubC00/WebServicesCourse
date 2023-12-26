@@ -5,7 +5,9 @@ const Main = () =>
     return (
         <>
             <SideMenu />
-            <Outlet />
+            <div className="w-full px-12 py-8">
+                <Outlet />
+            </div>
         </>
     )
 }
