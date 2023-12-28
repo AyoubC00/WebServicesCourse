@@ -23,9 +23,9 @@ const ImageContainer = ({ title, image, infoBefore, infoAfter, children }) =>
                     onClick={ handleClick }>
                 <CommandLineIcon className={`w-6 inline me-2 ${show ? 'text-red-600' : 'bg-transparent'}`}/>{ title }
             </code>
-            <div className={`transition bg-gray-50 py-4 rounded-md rounded-tl-none px-8 ${show ? 'visible' : 'hidden'}`}>
+            <div className={`transitiobg-gray-50 py-4 rounded-md rounded-tl-none px-8 ${show ? 'visible' : 'hidden'}`}>
                 <p className="mb-2">{ infoBefore }</p>
-                <img className="w-full" src={ image } alt="Code Illustration" />
+                <img className="w-full object-contain" src={ image } alt="Code Illustration" />
                 <p>{ infoAfter }</p>
                 {
                     children ?? children

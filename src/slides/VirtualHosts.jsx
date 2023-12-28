@@ -11,8 +11,8 @@ const VirtualHosts = () =>
             <p className="mt-8 font-semibold">Multiple Websites Can Be implemented in Apache Through Virtual Hosts</p>
             <dl className="[&>dt]:font-bold [&>dt]:mb-2 [&>dd]:ps-8 [&>dd]:mb-2 mb-8 mt-4">
                 <dd>
-                    <ImageContainer title="Move websites to /var/html" image={ images.move_websites_to_var_html } infoBefore="Folders on Desktop" infoAfter="Copy them to the appropriate folder">
-                        <img src={ images.apache } alt="Illustrating image" />
+                    <ImageContainer title="Move websites to /var/html" image={ images.folders_on_desktop } infoBefore="Folders on Desktop" infoAfter="Copy them to the appropriate folder">
+                        <img src={ images.move_websites_to_var_html } alt="Illustrating image" />
                     </ImageContainer>
                     <ImageContainer title="Update permissions" image={ images.update_permissions } infoBefore="So we will navigate to the Desktop Then Copy Both folders into /var/www, then change the file owners from root to the apache"/>
                     <ul className="[&>li]:mb-4 list-disc ms-16 mt-3">
@@ -32,7 +32,7 @@ const VirtualHosts = () =>
                         <p>After doing the configuration, You'll need to close the file and check if There is no syntax error on the main file</p>
                         <img src={ images.check_errors } alt="Illustration image" />
                     </ImageContainer>
-                    <ImageContainer title="Restart httpds" image={ images.apache }/>
+                    <ImageContainer title="Restart httpds" image={ images.restart_httpd2 }/>
                     <ImageContainer title="Check if the server is listening on both IPs" image={ images.check_if_the_server_is_listening_on_both_ips2 }/>
                     <p>Now to verify That Both Sites works at the same time, we will go to the client machine Then Type Both Ips and Then Discover what is the result</p>
                     <ImageContainer title="Visit the first website" image={ images.visit_the_first_website }/>
