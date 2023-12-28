@@ -8,7 +8,7 @@ const SideMenu = () =>
                 <li><NavLink className={({ isActive }) => isActive ? "activeSlide" : ""} end to="">Introduction</NavLink></li>
                 <li><NavLink className={({ isActive }) => isActive ? "activeSlide" : ""} to="installation">Installation</NavLink></li>
                 <li><NavLink className={({ isActive }) => isActive ? "activeSlide" : ""} to="configuration">Configuration</NavLink></li>
-                <li><NavLink className={({ isActive }) => isActive ? "activeSlide" : ""} to="dns_config">DNS configuration</NavLink></li>
+                <li><NavLink className={({ isActive }) => isActive ? "activeSlide" : ""} to="vhosts">Virtual hosts</NavLink></li>
             </ul>
         </div>
     )

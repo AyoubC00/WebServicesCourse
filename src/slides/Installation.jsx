@@ -18,6 +18,8 @@ const Installation = () =>
                 <dd><ImageContainer title="Update the Repositories" image={ images.update_the_repositories } /></dd>
                 <dd><ImageContainer title="Search for The package on the Repository" image={ images.search_for_the_package_on_the_repository } /></dd>
                 <dd><ImageContainer title="Install The Httpd Packages from Redhat" image={ images.install_the_httpd_packages_from_redhat } /></dd>
+            </dl>
+            <dl className="[&>dt]:font-bold [&>dt]:mb-2 [&>dd]:mb-2 mb-8">
                 <dd><ImageContainer title="Verify the packet using the following command" image={ images.verify_the_packet_using_the_following_command } /></dd>
                 <dd><ImageContainer title="Get the Information about the package" info="To get the Information about The package and verify it is for apache not other web service software, You can use the following command" image={ images.get_the_information_about_the_package } /></dd>
                 <dd><ImageContainer title="Check ports 80 and 443" infoBefore="Let's check 1st if the centos runs any service on port 80 (http) or port 443 (https)" infoAfter="From the Picture above you'll notice That our Centos server doesn't act yet as web server because There isn't any port 80 or port 443 enabled There By default." image={ images.check_ports_80_and_443 } /></dd>

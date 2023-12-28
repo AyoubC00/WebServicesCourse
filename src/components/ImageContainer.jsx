@@ -1,7 +1,7 @@
 import { useState } from "react"
 import { CommandLineIcon } from "@heroicons/react/24/outline"
 
-const ImageContainer = ({ title, image, infoBefore, infoAfter }) =>
+const ImageContainer = ({ title, image, infoBefore, infoAfter, children }) =>
 {
     const [show, setShow] = useState(false)
     const handleClick = () =>
@@ -9,7 +9,7 @@ const ImageContainer = ({ title, image, infoBefore, infoAfter }) =>
         setShow(prev => !prev);
     }
     return (
-        <div className="">
+        <div>
             <code 
                 className={`
                     py-3 rounded-md px-4 
@@ -27,6 +27,9 @@ const ImageContainer = ({ title, image, infoBefore, infoAfter }) =>
                 <p className="mb-2">{ infoBefore }</p>
                 <img className="w-full" src={ image } alt="Code Illustration" />
                 <p>{ infoAfter }</p>
+                {
+                    children ?? children
+                }
             </div>
         </div>
     )
